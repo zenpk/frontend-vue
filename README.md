@@ -1,2 +1,3 @@
 # frontend-vue
-connect to https://github.com/zenpk/backend-team
+
+A basic frontend UI which connects to https://github.com/zenpk/backend-team
