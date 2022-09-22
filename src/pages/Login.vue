@@ -37,7 +37,7 @@ export default {
       const formData = new URLSearchParams();
       formData.append("username", this.form.username);
       formData.append("password", this.form.password);
-      let resp = await fetch("http://localhost:8080/login", {
+      let resp = await fetch("http://101.43.179.27:8080/login", {
         method: "POST",
         headers: {"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"},
         credentials: "include",
