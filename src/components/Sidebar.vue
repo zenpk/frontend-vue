@@ -4,12 +4,12 @@
     <ul class="list-unstyled">
       <li>
         <router-link to="/1" class="link-dark sidebar-item">
-          第一周
+          主页
         </router-link>
       </li>
       <li>
         <router-link to="/2" class="link-dark sidebar-item">
-          第二周
+          登录注册系统
         </router-link>
       </li>
     </ul>
