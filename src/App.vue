@@ -13,7 +13,7 @@ import Sidebar from "./components/Sidebar.vue"
           <div class="row justify-content-between">
             <div class="col-auto"></div>
             <div class="col-auto">
-              <span class="fw-bold">homeworks</span>
+              <span class="fw-bold">Front to Back</span>
             </div>
           </div>
         </div>
