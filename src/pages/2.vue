@@ -6,12 +6,14 @@
       <table class="table table-striped table-bordered">
         <thead>
         <tr>
+          <th>id</th>
           <th>username</th>
           <th>password (BCrypt)</th>
         </tr>
         </thead>
         <tbody>
         <tr v-for="user in users">
+          <td>{{ user.id }}</td>
           <td>{{ user.username }}</td>
           <td>{{ user.password }}</td>
         </tr>
@@ -37,7 +39,7 @@ export default {
   },
   async mounted() {
     let resp = await axios("http://101.43.179.27:8080/all_user", {
-      method:"GET",
+      method: "GET",
       withCredentials: true
     });
     if (resp.status === 200) {
