@@ -11,7 +11,7 @@ export default {
     };
   },
   mounted() {
-    fetch("http://101.43.179.27:8080/")
+    fetch("http://localhost:8080/")
         .then(resp => resp.text())
         .then(text => {
           this.msg = text;

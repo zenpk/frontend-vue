@@ -38,7 +38,7 @@ export default {
     };
   },
   async mounted() {
-    let resp = await axios("http://101.43.179.27:8080/all_user", {
+    let resp = await axios("http://localhost:8080/all-users", {
       method: "GET",
       withCredentials: true
     });
